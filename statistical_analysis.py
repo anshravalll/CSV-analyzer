@@ -7,8 +7,8 @@ import datetime
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="sk-jNQQAWKyOfga9bEf8c12966778B943479eF8B6822c353314",
-    base_url="https://api.aiguoguo199.com/v1"
+    api_key="xxxx", #Put your api keys here
+    base_url="xxxx" #Put your  base url here
 )
 
 def greatest_read_csv(file_path, encodings=None):
@@ -174,7 +174,7 @@ def display_dataframe_summary(dataframe):
 # Example usage
 if __name__ == "__main__":
     # Path to the CSV file
-    file_path = r"C:\Users\Ansh\Desktop\games_dataset.csv"
+    file_path = r"Path/to/your/file"
     # Use greatest_read_csv to load the DataFrame
     try:
         df = greatest_read_csv(file_path)
