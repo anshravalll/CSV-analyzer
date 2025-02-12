@@ -78,5 +78,5 @@ if __name__ == "__main__":
 ### 8. `display_dataframe_summary`
 - **Functionality**: Provides a summary of the DataFrame.
 - **Capabilities**:
-  - Includes key statistics and insights such as shape, column types, missing values, and descriptive statistics.
+  - Includes key statistics and insights such as shape, column types, missing values, and descriptive statistics of every kind.
   - Offers a quick overview of the data, enabling better understanding and decision-making.
